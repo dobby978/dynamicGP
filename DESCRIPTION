@@ -1,0 +1,16 @@
+Package: dynamicGP
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("David", "Hobby", , "hobby@uni-potsdam.de", role = "aut")
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+        Matrix,
+        pracma,
+        reshape2,
+        ggplot2
