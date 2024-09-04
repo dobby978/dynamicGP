@@ -16,7 +16,7 @@ Package can be installed using:
 Install time is within 1 to 10 minutes on a "normal" desktop computer.
 
 Load data:
-`data <- read.csv("~/PycharmProjects/PhD_Projekt/Dynamic_Mode_Decomposition_Project/Maize_Data/trait/maize_trait_BLUP_50_NArmv_traits_w0SDrmv_afterClustering.csv")[, -1]`
+`data <- read.csv("example_data.csv")[, -1]`
 
 A list containing a tensor of A matrices directly calculated with algorithm 1 along with a tensor of X matrices is returned by: 
 `DMD_components <- find_DMD_components(data, method = "calculated.A")`
