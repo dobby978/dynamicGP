@@ -1,11 +1,10 @@
 Package: dynamicGP
 Title: dynamicGP - integration of Dynamic Mode Decomposition with Genomic Prediction
 Version: 1.0.0.0
-Authors@R: 
-    person("David", "Hobby", "hobby@uni-potsdam.de", role = "aut")
+Author: David Hobby [aut, cre]
 Maintainer: David Hobby <hobby@uni-potsdam.de>
 Description: Finds A, A_r and intermediate matrices from Algorithm 1 and 2 from paper "Dynamics of plant phenome can be accurately predicted from genetic markers"
-License: `use_mit_license()`
+License: MIT License
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
