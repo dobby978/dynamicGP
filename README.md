@@ -1,7 +1,9 @@
 # Code for "Dynamics of plant phenome can be accurately predicted from genetic markers".
 
 This code was developed and run on operating systems: `Ubuntu 22.04 LTS and 24.04 LTS`
+
 This code was developed and run using: `R version 4.3.3`
+
 R packages used: 
 - `Matrix (1.6-5)`
 - `pracma (2.4.4)`
