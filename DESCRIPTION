@@ -12,4 +12,5 @@ Imports:
         Matrix,
         pracma,
         reshape2,
-        ggplot2
+        ggplot2,
+        stringr
