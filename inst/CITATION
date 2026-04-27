@@ -1,0 +1,21 @@
+bibentry(
+  bibtype  = "Article",
+  title    = "Predicting plant trait dynamics from genetic markers",
+  author   = c(
+    as.person("David Hobby"),
+    as.person("Hao Tong"),
+    as.person("Marc Heuermann"),
+    as.person("Alain J. Mbebi"),
+    as.person("Roosa A. E. Laitinen"),
+    as.person("Matteo Dell'Acqua"),
+    as.person("Thomas Altman"),
+    as.person("Zoran Nikoloski")
+  ),
+  journal  = "Nature Plants",
+  year     = 2025,
+  volume   = 11,
+  number   = 5,
+  pages    = "1018--1027",
+  doi      = "10.1038/s41477-025-01986-y",
+  url      = "https://www.nature.com/articles/s41477-025-01986-y"
+)
