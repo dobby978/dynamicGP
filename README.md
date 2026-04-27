@@ -37,7 +37,7 @@ Two fitting methods are available:
 ```r
 # Install from a local clone:
 # install.packages("remotes")
-remotes::install_local("dobby978/dynamicGP")
+remotes::install_local("path/to/dynamicGP")
 
 # Or via devtools:
 devtools::install("dobby978/dynamicGP")
