@@ -37,10 +37,10 @@ Two fitting methods are available:
 ```r
 # Install from a local clone:
 # install.packages("remotes")
-remotes::install_local("path/to/dynamicGP")
+remotes::install_local("dobby978/dynamicGP")
 
 # Or via devtools:
-devtools::install("path/to/dynamicGP")
+devtools::install("dobby978/dynamicGP")
 ```
 
 Required packages: `ggplot2 (>= 3.4.0)`, `lubridate (>= 1.9.0)`, `scales (>= 1.2.0)`, `tidyr (>= 1.3.0)`.
