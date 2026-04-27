@@ -1,0 +1,39 @@
+Package: dynamicGP
+Title: Dynamic Mode Decomposition for Plant Phenomics
+Version: 0.2.0
+Authors@R:
+    person("David", role = c("aut", "cre"),
+           email = "hobby@uni-potsdam.de")
+Description: Implements Dynamic Mode Decomposition (DMD) for fitting linear
+    time-invariant state-space models to multivariate time-series data.
+    run_dmd() decomposes a state sequence into DMD modes, eigenvalues, growth
+    rates and oscillation frequencies. Utility functions cover multi-step state
+    reconstruction, trajectory statistics, array reshaping, and spectral
+    stability enforcement. Also provides greml_heritability() for computing
+    SNP-based heritability via GREML using either a pure-R backend (gaston) or
+    an optional GCTA binary backend.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ggplot2 (>= 3.4.0),
+    lubridate (>= 1.9.0),
+    progress (>= 1.2.0),
+    scales (>= 1.2.0),
+    tidyr (>= 1.3.0)
+Suggests:
+    dtw,
+    expm (>= 0.999-0),
+    Matrix (>= 1.5.0),
+    pracma (>= 2.4.0),
+    gaston,
+    plinkFile,
+    devtools,
+    roxygen2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/dobby978/dynamicGP
+BugReports: https://github.com/dobby978/dynamicGP/issues
