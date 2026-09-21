@@ -2,7 +2,7 @@ Package: dynamicGP
 Title: Dynamic Mode Decomposition for Plant Phenomics
 Version: 0.2.0
 Authors@R:
-    person("David", role = c("aut", "cre"))
+    person("David", email = hobby@uni-potsdam.de, role = c("aut"))
 Description: Implements Dynamic Mode Decomposition (DMD) for fitting linear
     time-invariant state-space models to multivariate time-series data.
     run_dmd() decomposes a state sequence into DMD modes, eigenvalues, growth
